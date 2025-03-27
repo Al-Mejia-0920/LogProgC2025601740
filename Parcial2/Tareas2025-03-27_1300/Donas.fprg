@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Donas"/>
+        <attribute name="authors" value="mi pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-26 11:36:25 "/>
+        <attribute name="created" value="bWkgcGM7REVTS1RPUC00MlUzTUE5OzIwMjUtMDMtMjY7IjExOjI5OjI2ICI7MjY3Mw=="/>
+        <attribute name="edited" value="bWkgcGM7REVTS1RPUC00MlUzTUE5OzIwMjUtMDMtMjY7IjExOjM2OjI1ICI7MTsyNzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Donas" type="Integer" array="False" size=""/>
+            <assign variable="Donas" expression="10"/>
+            <declare name="Cant" type="Integer" array="False" size=""/>
+            <assign variable="Cant" expression="0"/>
+            <declare name="Costo" type="Integer" array="False" size=""/>
+            <if expression="Cant&gt;49">
+                <then>
+                    <assign variable="Costo" expression="(Cant*Donas)-(Cant*2)"/>
+                    <output expression="Costo" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Cant&gt;29">
+                        <then>
+                            <assign variable="Costo" expression="(Cant*Donas)-(Cant*1)"/>
+                            <output expression="Costo" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="Costo" expression="Cant*Donas"/>
+                            <output expression="Costo" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

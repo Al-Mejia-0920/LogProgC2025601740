@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="A&#241;osBiciestos"/>
+        <attribute name="authors" value="angyv"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-27 12:06:32 p. m."/>
+        <attribute name="created" value="YW5neXY7QU5HWV9NT1JJVEE7MjAyNS0wMy0yNjsxMDo1NjowOSBwLiBtLjsyODgw"/>
+        <attribute name="edited" value="YW5neXY7QU5HWV9NT1JJVEE7MjAyNS0wMy0yNzsxMjowNjozMiBwLiBtLjsxOzI5ODI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a%4==0">
+                <then>
+                    <if expression="a%100==0">
+                        <then>
+                            <if expression="a%400==0">
+                                <then>
+                                    <output expression="&quot;El a&#241;o sera Biciesto&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;El a&#241;o no sera Biciesto&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;El a&#241;o sera Biciesto&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;El a&#241;o no es Biciesto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
