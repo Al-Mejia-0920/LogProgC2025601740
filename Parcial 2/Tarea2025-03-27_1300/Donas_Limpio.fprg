@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<flowgorithm fileversion="2.11.0"><function name="Main" type="None"><declare name="Donas" type="integer" /><declare name="Cant" type="integer" /><declare name="Costo" type="integer" /><start /><end /></function></flowgorithm>
