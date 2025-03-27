@@ -16,6 +16,7 @@
             <input variable="year"/>
             <if expression="year%4==0">
                 <then>
+                    <assign variable="year" expression="year / 4">
                     <output expression="&quot;Es a&#241;o bisiesto&quot;" newline="True"/>
                 </then>
                 <else>
