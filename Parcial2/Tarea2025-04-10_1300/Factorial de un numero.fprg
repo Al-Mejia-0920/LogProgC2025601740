@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Factorial de un numero"/>
+        <attribute name="authors" value="aldo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-09 08:20:03 p. m."/>
+        <attribute name="created" value="Sm9uTWE7RU1FUkdFTkNJQTsyMDI1LTA0LTA5OzA4OjEzOjM2IHAuIG0uOzI2NjQ="/>
+        <attribute name="edited" value="Sm9uTWE7RU1FUkdFTkNJQTsyMDI1LTA0LTA5OzA4OjIwOjAzIHAuIG0uOzE7Mjc2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, nu" type="Real" array="False" size=""/>
+            <assign variable="f" expression="1"/>
+            <assign variable="nu" expression="0"/>
+            <input variable="nu"/>
+            <while expression="nu&gt;0">
+                <assign variable="f" expression="f*nu"/>
+                <output expression="nu" newline="True"/>
+                <assign variable="nu" expression="nu-1"/>
+            </while>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

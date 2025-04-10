@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Serie Fibonacci ciclo for"/>
+        <attribute name="authors" value="aldo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-09 07:53:43 p. m."/>
+        <attribute name="created" value="Sm9uTWE7RU1FUkdFTkNJQTsyMDI1LTA0LTA4OzA5OjA0OjA5IHAuIG0uOzI2NjQ="/>
+        <attribute name="edited" value="Sm9uTWE7RU1FUkdFTkNJQTsyMDI1LTA0LTA5OzA3OjUzOjQzIHAuIG0uOzM7Mjc3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Real" array="False" size=""/>
+            <assign variable="b" expression="0"/>
+            <assign variable="c" expression="1"/>
+            <assign variable="d" expression="1"/>
+            <for variable="a" start="1" end="64" direction="inc" step="1">
+                <assign variable="d" expression="b+c"/>
+                <assign variable="b" expression="c"/>
+                <assign variable="c" expression="d"/>
+                <output expression="d" newline="True"/>
+            </for>
+            <output expression="&quot;En este diagrama de flujo de demostro la serie fibonacci del 1 al 64 :)&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
